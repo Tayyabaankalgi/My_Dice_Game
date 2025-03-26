@@ -13,11 +13,11 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImageSource2);
 
 if(randomnumber1 > randomnumber2){
-    document.querySelector("h1").innerHTML="Heyy Heyy player 1 wins!! 🚩"
+    document.querySelector("h1").innerHTML="Heyy Heyy player 1 wins!! 🚩";
 }
 else if(randomnumber2 > randomnumber1){
-    document.querySelector("h1").innerHTML="Heyy Heyy player 2 wins!! 🚩"
+    document.querySelector("h1").innerHTML="Heyy Heyy player 2 wins!! 🚩";
 }
 else{
-    document.querySelector("h1").innerHTML="ohhhhh!!!! Draw"
+    document.querySelector("h1").innerHTML="ohhhhh!!!! Draw";
 }
